@@ -64,7 +64,7 @@ function find_wood_up()
 end
 
 function find_left_edge()
-  -- am I looking at dirt?
+  print("finding left edge")
 
   while find_dirt() do
     turtle.turnLeft()
@@ -121,6 +121,7 @@ function plant_seed()
 end
 
 while turtle.getItemCount(sapling_slot) > 0 do
+  print("looping")
   refuel()
   find_left_edge()
 

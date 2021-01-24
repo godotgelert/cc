@@ -1,0 +1,11 @@
+{
+  "name": "cc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:godotgelert/cc.git",
+  "author": "Robin Duckett <robin.duckett@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^7.4.2"
+  }
+}
